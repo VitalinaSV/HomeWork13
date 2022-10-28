@@ -1,5 +1,5 @@
 package homeWork14;
 
 public interface LinuxOS {
-    public void showProgrammingLanguageLinuxOS ();
+    public void connectedToComputerUsingUSB ();
 }

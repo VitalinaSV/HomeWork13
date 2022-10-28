@@ -15,15 +15,16 @@ public class IPhones implements SmartPhones, IOS {
 
     }
 
-    public void showProgrammingLanguageIOS() {
-        System.out.println("Programming language: IOS is mainly written in C, C++, Objective-C, assembly language and Swift.");
+    public void startFaceTime() {
+        System.out.println("Features an iOS: Thanks to its simplicity and seamless functionality, FaceTime is extremely popular among Apple users.");
     }
 
     public void showInfo() {
         sms();
         call();
         internet();
-        showProgrammingLanguageIOS();
+        startFaceTime();
+
     }
 }
 

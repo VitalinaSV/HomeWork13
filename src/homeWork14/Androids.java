@@ -16,15 +16,16 @@ public class Androids implements SmartPhones, LinuxOS {
         System.out.println("Internet: Android uses Google Chrome.");
     }
 
-    public void showProgrammingLanguageLinuxOS() {
-        System.out.println("Programming language: LinuxOS basically written in C language and assembly language.");
+    public void connectedToComputerUsingUSB() {
+        System.out.println("Features an LinuxOS: Access Internal Storage Over USB");
     }
 
     public void showInfo() {
         sms();
         call();
         internet();
-        showProgrammingLanguageLinuxOS();
+        connectedToComputerUsingUSB();
+
 
     }
 }
